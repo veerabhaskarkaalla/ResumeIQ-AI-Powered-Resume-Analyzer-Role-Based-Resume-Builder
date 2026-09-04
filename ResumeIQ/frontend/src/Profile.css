@@ -1,0 +1,330 @@
+.profile-page {
+  padding-top: 28px;
+}
+
+
+.profile-heading {
+  border-bottom:
+    1px solid #d8d0c0;
+
+  padding-bottom: 18px;
+
+  margin-bottom: 24px;
+}
+
+
+.profile-heading h2 {
+  margin: 0;
+
+  font-family:
+    Georgia,
+    serif;
+
+  font-size: 28px;
+}
+
+
+.profile-heading p {
+  margin:
+    7px 0 0;
+
+  color: #747a80;
+
+  font-size: 13px;
+}
+
+
+.profile-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 22px;
+}
+
+
+.profile-card {
+  background: #fbf9f4;
+
+  border:
+    1px solid #d8d0c0;
+
+  padding: 24px;
+}
+
+
+.profile-card-title {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  padding-bottom: 10px;
+
+  margin-bottom: 22px;
+
+  border-bottom:
+    1px solid #ded7ca;
+}
+
+
+.profile-card-title span {
+  color: #08766f;
+
+  font-family: monospace;
+
+  font-size: 10px;
+}
+
+
+.profile-card-title h3 {
+  margin: 0;
+
+  color: #08766f;
+
+  text-transform: uppercase;
+
+  font-family: monospace;
+
+  font-size: 11px;
+
+  letter-spacing: 1px;
+}
+
+
+.profile-avatar {
+  width: 72px;
+
+  height: 72px;
+
+  border-radius: 50%;
+
+  display: grid;
+
+  place-items: center;
+
+  background: #20252c;
+
+  color: white;
+
+  font-family:
+    Georgia,
+    serif;
+
+  font-size: 32px;
+
+  margin-bottom: 23px;
+}
+
+
+.profile-label {
+  display: block;
+
+  font-family: monospace;
+
+  font-size: 10px;
+
+  color: #5d6469;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.7px;
+
+  margin-bottom: 6px;
+
+  margin-top: 15px;
+}
+
+
+.profile-input {
+  width: 100%;
+
+  border:
+    1px solid #ccc3b2;
+
+  background: white;
+
+  padding: 12px;
+
+  outline: none;
+
+  font-size: 14px;
+}
+
+
+.profile-input:focus {
+  border-color: #08766f;
+}
+
+
+.profile-input:disabled {
+  background: #eeeae1;
+
+  color: #777;
+}
+
+
+.profile-help {
+  margin:
+    5px 0 18px;
+
+  color: #8b8b88;
+
+  font-size: 10px;
+}
+
+
+.profile-meta {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding:
+    10px 0;
+
+  border-bottom:
+    1px dashed #ddd5c7;
+
+  font-family: monospace;
+
+  font-size: 11px;
+}
+
+
+.profile-meta span {
+  color: #777;
+}
+
+
+.profile-primary-button {
+  margin-top: 20px;
+
+  border: 0;
+
+  background: #20252c;
+
+  color: white;
+
+  padding:
+    11px 17px;
+
+  font-family: monospace;
+
+  font-weight: 700;
+
+  border-radius: 4px;
+}
+
+
+.profile-primary-button:disabled {
+  opacity: 0.6;
+
+  cursor: not-allowed;
+}
+
+
+.profile-card h4 {
+  margin:
+    0 0 5px;
+
+  font-family:
+    Georgia,
+    serif;
+
+  font-size: 20px;
+}
+
+
+.security-description {
+  color: #777;
+
+  font-size: 12px;
+
+  margin-bottom: 23px;
+}
+
+
+.security-info {
+  margin-top: 25px;
+
+  background: #e4efec;
+
+  border-left:
+    4px solid #08766f;
+
+  padding: 14px;
+}
+
+
+.security-info strong {
+  font-family: monospace;
+
+  font-size: 11px;
+}
+
+
+.security-info p {
+  margin:
+    6px 0 0;
+
+  font-size: 11px;
+
+  line-height: 1.6;
+}
+
+
+.profile-message {
+  padding: 12px 15px;
+
+  margin-bottom: 18px;
+
+  font-size: 12px;
+}
+
+
+.profile-message.error {
+  color: #8d382f;
+
+  background: #f6ded9;
+
+  border-left:
+    4px solid #a34539;
+}
+
+
+.profile-message.success {
+  color: #075f59;
+
+  background: #dbefeb;
+
+  border-left:
+    4px solid #08766f;
+}
+
+
+.profile-loading {
+  margin-top: 30px;
+
+  min-height: 300px;
+
+  display: grid;
+
+  place-items: center;
+
+  border:
+    1px dashed #c8c0b1;
+
+  color: #777;
+}
+
+
+@media (max-width: 800px) {
+
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+}
